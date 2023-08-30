@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    background: #F0F2F5;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    gap:5rem;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+.logo_class .logo {
+    height:106px;
+    margin:-26px;
+}
+.logo_class p {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin: 8px 0px;
+}
+
+.form-card {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.input_form {
+    background: #FFFFFF;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0 8px;
+    vertical-align: middle;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    outline:none;
+}
+
+.login button {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    color: #fff;
+}
+.forget_password {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    margin:10px 0px;
+}
+.line {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 16px;
+    text-align: center;
+    width: 90%;
+}
+.create_account_btn {
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.creat_page_sec {
+    margin-top:30px;
+}
+.creat_page_sec a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.creat_page_sec a:hover {
+    text-decoration: underline;
+}
+
+@media  screen and (max-width:600px) {
+    .container {
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px;
+    }
+}
